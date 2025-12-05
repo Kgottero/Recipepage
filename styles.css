@@ -1,0 +1,195 @@
+body{
+    background-color: #f3e5d8;
+    padding:0;
+    margin:0;
+    font-family: outfit;
+}
+div{
+    background-color: white ;
+    width:60vw;
+    margin:30px auto;
+    border-radius: 10px;
+    overflow: auto;
+    padding-bottom:20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+img{
+    width:56vw;
+    display: block;
+    margin:0 auto;
+    margin-top:12px ;
+    border-radius:5px;
+}
+h3{
+    font-family:young serif;
+    font-size: 3.5vw;
+    margin-left:3.5%;
+    font-weight:500;
+    opacity: 75%;
+}
+.dishdesc{
+    font-size: 1.2vw;
+    margin-left:3.5%;
+    margin-top:-18px;
+    opacity:70%;
+}
+.preptime{
+    background-color:#fff7fc;
+    margin:0 auto;
+    margin-top:15px;
+    border-radius: 5px;
+    padding-top:10px;
+    width:83%;
+    padding-bottom: 15px;
+}
+.preptime dl{
+    color:#7f435c;
+    font-weight:600;
+    font-size:2vw;
+    margin:0 auto;
+    margin-top: 2%;
+    margin-left:-10px;
+    
+}
+.preptime li{
+    font-size:1.5vw;
+    opacity:65%;
+    margin:0 auto;
+    margin-top:1.5vw;
+    margin-left:3vw;
+
+}
+.preptime li::marker{
+    color:#34111f;
+}
+.preptime span{
+    font-weight:600;
+}
+.ingredientslist dl{
+    font-family: young serif;
+    font-size: 3.2vw;
+    color:#774634;
+    margin-left:-20px;
+}
+.ingredientslist li{
+    font-size: 1.5vw;
+    margin-top:2%;
+    opacity: 75%;
+}
+.ingredientslist li::marker{
+    color:#774634;
+}
+.Instructions dl{
+    color:#774634;
+    font-family: young serif;
+    font-size: 3.2vw;
+    margin-left:-20px;
+}
+.Instructions li{
+    font-size: 1.5vw;
+    opacity: 70%;
+    margin-top: 4%;
+}
+.Instructions li span{
+    font-weight:600;
+}
+.Instructions li::marker{
+    color:#774634;
+    font-weight: 400;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    height: 1px;
+    background: #774634;
+    transform: scaleY(0.3);  
+    opacity: 0.3;
+}
+
+table{ 
+    width:50vw;
+    border:none;
+    border-collapse: collapse;
+    margin:0 auto;
+    margin-top:5%;
+}
+tr{
+    border-bottom: 0.1px solid;
+    font-size: 1.5vw;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+th{
+    font-weight:normal ;
+
+}
+tr td, tr th {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 7px; /* increase this for more space */
+}
+th, td {
+    padding-right: 100px;   /* closer to left */
+}
+td{
+    font-weight:600;
+    color:#774634
+}
+
+.Nuttable{
+    font-size: 1.4vw;
+    margin-left:10%;
+    opacity:80%;
+}
+.Nutrition {
+    font-size: 3.2vw;
+    font-family: young serif;
+    color:#774634;
+    margin-left:7% ;
+}
+@media(max-width:480px){
+    div{
+width:100vw;
+height:100vh;
+margin:0;
+padding:0
+    }
+    img{
+        width:100%;
+        max-width:100%;
+        margin:0;
+    }
+    h3{
+        font-size:10vw;
+        line-height: 1.2;
+    }
+    .dishdesc{
+        font-size:4.2vw;
+        line-height: 1.5;
+        opacity:60%;
+    }
+    .preptime dl{
+        font-size:4.2vw
+
+    }
+    .preptime li{
+        font-size:3vw;
+    }
+    .preptime{
+        width:70vw
+    }
+    .ingredientslist dl, .Instructions dl{
+        font-size: 4.2vw;
+    }
+    .ingredientslist li{
+        font-size: 3vw;
+        margin-top: 4px;
+    }
+    .Instructions li{
+        font-size: 3vw;
+        margin-top:4%;
+    }
+}
+
